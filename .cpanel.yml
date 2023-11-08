@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gharkafu/ifoodl.com/public/
+    - /bin/cp * $DEPLOYPATH
